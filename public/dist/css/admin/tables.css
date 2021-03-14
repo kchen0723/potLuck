@@ -1,0 +1,43 @@
+.select-box {
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.check-box {
+    width: 30px;
+    height: 30px;
+}
+
+#add-row {
+    width: auto;
+    height: 30px;
+}
+
+#delete-row {
+    width: auto;
+    height: 30px;
+}
+
+#edit-row {
+    width: auto;
+    height: 30px;
+}
+
+#table-control {
+    padding-bottom: 5px;
+}
+
+.divider {
+    display: inline-block;
+    width: 5px;
+}
+
+.vert-divider {
+    height: 5px;
+}
+
+/*table tr td {
+    font-size: 1.5vmax;
+}
+*/

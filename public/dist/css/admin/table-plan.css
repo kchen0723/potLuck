@@ -1,0 +1,38 @@
+.square-tables {
+    /* background styles */
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    /*for compatibility with older browsers*/
+    background-image: linear-gradient(#cccccc, #cccccc);
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px -2px #333;
+    text-shadow: 0px -1px #333;
+    font-weight: bolder;
+    color: black;
+}
+
+.square-tables:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+}
+
+.square-tables:hover {
+    background: linear-gradient(#0099ff, #0099ff);
+}
+
+.floor {
+	background-color: #444444;
+	height: 700px;
+	width: 100%;
+}
+
+.dragged {
+	background: blue;
+}

@@ -1,0 +1,145 @@
+.navbar-fixed-left {
+  width: 183px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  background-color: rgba(229, 118, 0, 1);
+  border: none;
+}
+
+.navbar-fixed-left .navbar-nav li {
+  float: left;  /* Cancel default li float: left */
+  width: 183px;
+  height: 40px;
+  background-color: rgba(229, 118, 0, 1);
+  margin-top: 10px;
+
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 166px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-left: 140px;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #FFFFFF;
+    padding: 15px;
+    font-family: 'PingFangSC-Light', 'PingFang SC Light', 'PingFang SC';
+    font-weight: 200;
+    font-size: 12px;
+    padding-right: 0px;
+}
+
+.active {
+    background: rgba(240, 189, 1, 1) !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: rgba(240, 189, 1, 1);
+}
+
+.navbar-brand {
+    font-family: 'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
+    font-size: 24px;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    padding: 0px;
+    padding-top: 38px;
+    padding-left: 20px;
+    margin-bottom: 37px;
+}
+
+.navbar-inverse ul li img {
+    height: 26px !important;
+    width: 26px !important;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.my-order {
+    background-color: #FFFFFF;
+    width: 140px;
+    height: 40px;
+    position: relative;
+    top: 381px;
+    left: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'PingFangSC-Regular', 'PingFang SC';
+    font-size: 13px;
+
+}
+
+.my-order img {
+    width: 21px;
+    margin-top: -7px;
+    margin-left: -7px;
+    margin-right: 7px;
+}
+
+.header {
+    padding-top: 35px;
+    font-size: 20px;
+    font-family: "PingFangSC-Light","PingFang SC Light","PingFang SC";
+    font-weight: 200;
+    line-height: 29px;
+    text-align: left;
+}
+
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}

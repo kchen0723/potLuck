@@ -1,0 +1,293 @@
+.status {
+    font-weight: bolder;
+}
+
+.panel {
+    box-shadow: 6px 6px 5px #999999;
+}
+
+.panel-heading {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 20%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.panel-footer {
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.panel-heading span {
+    font-size: 25px;
+}
+
+span.free:after {
+    content: ' - 空闲';
+}
+
+span.deciding:after {
+    content: ' - 未点餐';
+}
+
+span.ordered:after {
+    content: ' - 已点餐';
+}
+
+span.waiting:after {
+    content: ' - 等待确认';
+}
+
+span.req-assist:after {
+    content: ' - 需要服务';
+}
+
+span.checkout:after {
+    content: ' - 申请结账';
+}
+
+.panel-footer {
+    text-align: right;
+    font-weight: bolder;
+}
+
+div.panel-footer:before {
+    font-weight: bolder;
+    content: '当前总计 : ';
+}
+
+div.panel-footer span.cur-total:before {
+    /*color: red;*/
+    content: '$';
+}
+
+div.panel-footer span.cur-total {
+    /*color: red;*/
+    font-weight: bolder;
+}
+
+.panel {
+    border-radius: 20px !important;
+}
+
+.panel-free {
+    border-color: #C0C0C0;
+    border-radius: 20px;
+}
+
+.panel-free .panel-heading {
+    background-color: #d7d7d7;
+    color: #666666;
+    border-color: white;
+}
+
+.panel-free .panel-body {
+    background-color: #d7d7d7;
+}
+
+.panel-free .panel-footer {
+    background-color: #d7d7d7;
+    border-color: white;
+}
+
+.panel-deciding>.panel-heading {
+    color: #31708f;
+    border-color: white;
+    background-color: #d9edf7;
+}
+
+.panel-deciding .panel-body {
+    background-color: #d9edf7;
+}
+
+.panel-deciding .panel-footer {
+    background-color: #d9edf7;
+    border-color: white;
+}
+
+.panel-ordered>.panel-heading {
+    color: #31708f;
+    border-color: white;
+    background-color: #d9edf7;
+}
+
+.panel-ordered .panel-body {
+    background-color: #d9edf7;
+}
+
+.panel-ordered .panel-footer {
+    background-color: #d9edf7;
+    border-color: white;
+}
+
+.panel-checkout>.panel-heading {
+    border-color: white;
+}
+
+.panel-checkout>.panel-body {
+    background-color: #5cb85c;
+}
+
+.panel-checkout>.panel-footer {
+    background-color: #5cb85c;
+    border-color: white;
+}
+
+.panel-waiting>.panel-heading {
+    border-color: white;
+    background-color: #ffcc00;
+    color: white;
+}
+
+.panel-waiting>.panel-body {
+    background-color: #ffcc00;
+}
+
+.panel-waiting>.panel-footer {
+    background-color: #ffcc00;
+    border-top-color: white;
+}
+
+.panel-req-assist>.panel-heading {
+    border-color: white;
+    background-color: #ffcc00;
+    color: white;
+}
+
+.panel-req-assist>.panel-body {
+    background-color: #ffcc00;
+}
+
+.panel-req-assist>.panel-footer {
+    background-color: #ffcc00;
+    border-top-color: white;
+}
+
+button.sit {
+    margin-left: 30%;
+}
+
+button.order-details {
+    margin-left: 10%;
+}
+
+button.checkout {
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+table thead tr th.dish-code:before {
+    content: '# ';
+}
+
+table tbody tr td.dish-code:before {
+    content: '#';
+}
+
+table thead tr th.price:before {
+    content: '($) ';
+}
+
+table tbody tr td.price:before {
+    content: '$';
+}
+
+table tfoot tr th {
+    text-align: right;
+}
+
+td.subtotal:before {
+    content: '$';
+}
+
+td.taxes:before {
+    content: '$';
+}
+
+td.total:before {
+    content: '$';
+}
+
+td.total {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.glass-details {
+    /* background styles */
+    position: relative;
+    display: inline-block;
+    /*for compatibility with older browsers*/
+    background-image: linear-gradient(#cccccc, #cccccc);
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px -2px #333;
+    text-shadow: 0px -1px #333;
+    font-weight: bolder;
+    color: black;
+}
+
+.glass-details:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+}
+
+.glass-details:hover {
+    background: linear-gradient(#0099ff, #0099ff);
+}
+
+.glass-checkout {
+    /* background styles */
+    position: relative;
+    display: inline-block;
+    /*for compatibility with older browsers*/
+    background-image: radial-gradient(#ffd24a, #cccccc);
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px -2px #333;
+    text-shadow: 0px -1px #333;
+    font-weight: bolder;
+    color: black;
+}
+
+.glass-checkout:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+}
+
+.glass-checkout:hover {
+    background: linear-gradient(#0099ff, #0099ff);
+}
+
+.glass-sit {
+    /* background styles */
+    position: relative;
+    display: inline-block;
+    /*for compatibility with older browsers*/
+    /*background-image: linear-gradient(white, #0099ff);*/
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px -2px #333;
+    text-shadow: 0px -1px #333;
+    font-weight: bolder;
+    color: black;
+}
+
+.glass-sit:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+}

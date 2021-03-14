@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=720,maximum-scale=1.0" />
+    <title>点餐界面</title>
+    <link href="../vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../dist/css/customer/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-left">
+        <a class="navbar-brand" href="/customer">WHITE SPOT</a>
+        <ul class="nav navbar-nav">
+            <li>
+                <a class="active" href="#"><img class="todays-special" src="../img/todays-special.png">TODAY'S SPECIAL</a>
+            </li>
+            <li>
+                <a href="#"><img class="" src="../img/spot-classics.png">SPOT CLASSICS</a>
+            </li>
+            <li>
+                <a href="#"><img class="" src="../img/pasta-bowls.png">PASTA & BOWLS</a>
+            </li>
+            <li><a href="#">Link4</a></li>
+            <li><a href="#">Link5</a></li>
+        </ul>
+        <button class="my-order btn btn-lg"><img src="../img/my-order.png">MY ORDER</button>
+    </div>
+    <div class="container">
+        <div class="menu-body">
+            <div class="header">TODAY'S SPECIAL</div>
+        </div>
+        <div class="body">
+            <div class="dish-content container">
+                <img class="popup-opener" src="../img/family-pak.png" data-popup-open="popup-1">
+            </div>
+        </div>
+    </div>
+    <div class="popup" data-popup="popup-1">
+        <div class="popup-inner">
+            <h2>test</h2>
+            <p>test</p>
+            <p><a data-popup-close="popup-1" href="#">Close</a></p>
+            <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+        </div>
+    </div>
+
+    <script src="../vendor/jquery/jquery.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="../dist/js/customer/index.js"></script>
+</body>
+
+</html>

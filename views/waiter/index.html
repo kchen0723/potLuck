@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>超級管理界面</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../dist/css/waiter/sb-admin-2.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../dist/css/waiter/index.css">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">小伙伴私房焖</a>
+            </div>
+            <!-- /.navbar-header -->
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>Read All Messages</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-messages -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-tasks">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 1</strong>
+                                        <span class="pull-right text-muted">40% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 2</strong>
+                                        <span class="pull-right text-muted">20% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 3</strong>
+                                        <span class="pull-right text-muted">60% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 4</strong>
+                                        <span class="pull-right text-muted">80% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>See All Tasks</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-tasks -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                                    <span class="pull-right text-muted small">12 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-tasks fa-fw"></i> New Task
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>See All Alerts</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-alerts -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="搜索...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> 餐厅面板</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">餐厅服务界面</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+                <div class="panel panel-free">
+                    <div class="panel-heading">
+                        1 <span class="status free" />
+                    </div>
+                    <div class="panel-body">
+                        <span class="head-count" />
+                        <button class="btn btn-lg btn-info sit glass-sit" data-toggle="modal" data-target="#table-sit-modal">入座</button>
+                        <button class="btn btn-lg btn-info order-details glass-details" data-toggle="modal" data-target="#table-details-modal">查看详情</button>
+                        <button class="btn btn-lg btn-primary checkout glass-checkout" data-toggle="modal" data-target="#checkout-modal2" data-backdrop="static" data-keyboard="false">结账</button>
+                    </div>
+                    <div class="panel-footer">
+                        <span class="cur-total"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+                <div class="panel panel-info panel-ordered">
+                    <div class="panel-heading">
+                        2 <span class="status ordered" />
+                    </div>
+                    <div class="panel-body">
+                        <span class="head-count" />
+                        <button class="btn btn-lg btn-info sit glass-sit" data-toggle="modal" data-target="#table-sit-modal">入座</button>
+                        <button class="btn btn-lg btn-info order-details glass-details" data-toggle="modal" data-target="#table-details-modal">查看详情</button>
+                        <button class="btn btn-lg btn-primary checkout glass-checkout" data-toggle="modal" data-target="#checkout-modal2" data-backdrop="static" data-keyboard="false">结账</button>
+                    </div>
+                    <div class="panel-footer">
+                        <span class="cur-total"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+                <div class="panel panel-yellow panel-deciding panel-waiting">
+                    <div class="panel-heading">
+                        3 <span class="status waiting" />
+                    </div>
+                    <div class="panel-body">
+                        <span class="head-count" />
+                        <button class="btn btn-lg btn-info sit glass-sit" data-toggle="modal" data-target="#table-sit-modal">入座</button>
+                        <button class="btn btn-lg btn-info order-details glass-details" data-toggle="modal" data-target="#table-details-modal">查看详情</button>
+                        <button class="btn btn-lg btn-primary checkout glass-checkout" data-toggle="modal" data-target="#checkout-modal2" data-backdrop="static" data-keyboard="false">结账</button>
+                    </div>
+                    <div class="panel-footer">
+                        <span class="cur-total"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+                <div class="panel panel-info panel-ordered panel-yellow panel-req-assist">
+                    <div class="panel-heading">
+                        4 <span class="status ordered req-assist" />
+                    </div>
+                    <div class="panel-body">
+                        <span class="head-count" />
+                        <button class="btn btn-lg btn-info sit glass-sit" data-toggle="modal" data-target="#table-sit-modal">入座</button>
+                        <button class="btn btn-lg btn-info order-details glass-details" data-toggle="modal" data-target="#table-details-modal">查看详情</button>
+                        <button class="btn btn-lg btn-primary checkout glass-checkout" data-toggle="modal" data-target="#checkout-modal2" data-backdrop="static" data-keyboard="false">结账</button>
+                    </div>
+                    <div class="panel-footer">
+                        <span class="cur-total"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+                <div class="panel panel-green panel-checkout">
+                    <div class="panel-heading">
+                        5 <span class="status checkout" />
+                    </div>
+                    <div class="panel-body">
+                        <span class="head-count" />
+                        <button class="btn btn-lg btn-info sit glass-sit" data-toggle="modal" data-target="#table-sit-modal">入座</button>
+                        <button class="btn btn-lg btn-info order-details glass-details" data-toggle="modal" data-target="#table-details-modal">查看详情</button>
+                        <button class="btn btn-lg btn-primary checkout glass-checkout" data-toggle="modal" data-target="#checkout-modal2" data-backdrop="static" data-keyboard="false">结账</button>
+                    </div>
+                    <div class="panel-footer">
+                        <span class="cur-total"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+                <div class="panel panel-info panel-deciding">
+                    <div class="panel-heading">
+                        6 <span class="status deciding" />
+                    </div>
+                    <div class="panel-body">
+                        <span class="head-count" />
+                        <button class="btn btn-lg btn-info sit glass-sit" data-toggle="modal" data-target="#table-sit-modal">入座</button>
+                        <button class="btn btn-lg btn-info order-details glass-details" data-toggle="modal" data-target="#table-details-modal">查看详情</button>
+                        <button class="btn btn-lg btn-primary checkout glass-checkout" data-toggle="modal" data-target="#checkout-modal2" data-backdrop="static" data-keyboard="false">结账</button>
+                    </div>
+                    <div class="panel-footer">
+                        <span class="cur-total"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- #table-details-modal -->
+    <div class="modal fade" id="table-details-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal-label">用餐详情 
+                    <button type="button" class="close fa fa-close" data-dismiss="modal" aria-label="Close" />
+                    </h3>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <table id="table-details" class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="dish-code">菜品编码</th>
+                                    <th class="dish-name">菜品名称</th>
+                                    <th class="price">单价</th>
+                                    <th class="dish-print-status">是否打印</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="dish-code">41</td>
+                                    <td class="dish-name">京酱肉丝</td>
+                                    <td class="price">12.99</td>
+                                    <td class="dish-print-status">未打印</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th colspan='2'>Sub-Total: </th>
+                                    <td class="subtotal"></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan='2'>Taxes: </th>
+                                    <td class="taxes"></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan='2'>Total: </th>
+                                    <td class="total"></td>
+                                    <td></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-lg btn-success" id="assist">前往餐桌</button>
+                    <button class="btn btn-lg btn-success" id="print-dish" data-toggle="modal" data-target="#print-dish-modal">提交打印</button>
+                    <button class="btn btn-lg btn-primary" id="add-dish" data-toggle="modal" data-target="#add-dish-modal">追加菜品</button>
+                    <button class="btn btn-lg btn-primary" id="del-dish">删除菜品</button>
+                    <button type="button" class="btn btn-lg btn-danger" id="checkout2" data-toggle="modal" data-target="#checkout-modal" data-backdrop="static" data-keyboard="false">结账</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#table-details-modal -->
+    <!-- #add-dish-modal -->
+    <div class="modal fade" id="add-dish-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal-label">添加员工
+                    <button type="button" class="close fa fa-close" data-dismiss="modal" aria-label="Close" />
+                    </h3>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="first-name">输入员工名字</label>
+                            <input type="text" id="first-name" class="form-control" required placeholder="请输入名字" />
+                            <div class="vert-divider"></div>
+                            <label for="last-name">输入员工姓氏</label>
+                            <input type="text" id="last-name" class="form-control" required placeholder="请输入姓氏" />
+                            <div class="vert-divider"></div>
+                            <label for="user-name">输入员工用户名</label>
+                            <input type="text" id="user-name" class="form-control" required placeholder="请输入员工新的用户名" />
+                            <div class="vert-divider"></div>
+                            <label for="tip-level">选择员工小费等级</label>
+                            <select id="tip-level" class="form-control" placeholder="请输入员工的小费等级">
+                                <option value="0" id="option0">--请选择--</option>
+                                <option value="1" id="option1">等级 1</option>
+                                <option value="2" id="option2">等级 2</option>
+                                <option value="3" id="option3">等级 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">取消</button>
+                        <button class="btn btn-lg btn-primary" id="confirm-add-dish">确认</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /#add-dish-modal -->
+    <!-- #print-dish-modal -->
+    <div class="modal fade" id="print-dish-modal" tabindex="-2" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal-label">打印
+                    <button type="button" class="close fa fa-close" data-dismiss="modal" aria-label="Close" />
+                    </h3>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <h3>确认要打印新增菜品?</h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">取消</button>
+                        <button class="btn btn-lg btn-primary" id="confirm-print-dish">确认</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /#print-dish-modal -->
+    <!-- #table-sit-modal -->
+    <div class="modal fade" id="table-sit-modal" tabindex="-2" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal-label">入座
+                    <button type="button" class="close fa fa-close" data-dismiss="modal" aria-label="Close" />
+                    </h3>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <h4>使用此桌?</h4>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">取消</button>
+                        <button class="btn btn-lg btn-primary" id="confirm-sit">确认</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /#table-sit-modal -->
+    <!-- #checkout-modal -->
+    <div class="modal fade" id="checkout-modal" tabindex="-2" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal-label">结账
+                    <button type="button" class="close fa fa-close" data-dismiss="modal" aria-label="Close" />
+                    </h3>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <h1>Total: </h1>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">取消</button>
+                        <button class="btn btn-lg btn-primary" id="checkout3">确认</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /#checkout-modal -->
+    <!-- #checkout-modal2 -->
+    <div class="modal fade" id="checkout-modal2" tabindex="-2" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal-label">结账
+                    <button type="button" class="close fa fa-close" data-dismiss="modal" aria-label="Close" />
+                    </h3>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <h1>Total: </h1>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">取消</button>
+                        <button class="btn btn-lg btn-primary" id="checkout4">确认</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /#checkout-modal2 -->
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/waiter/sb-admin-2.js"></script>
+    <!-- Custom JavaScripts -->
+    <!-- please use this for production-->
+    <!-- <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <script src="../dist/js/index.js"></script> -->
+
+    <!-- please use this for development -->
+    <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <script src="../dist/js/waiter/index.js"></script>
+</body>
+
+</html>
